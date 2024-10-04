@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="uploadForm">
+        <form>
+            <label for="file-upload" class="custom-file-upload">
+                Upload CSV File
+            </label>
+            <input id="file-upload" type="file" accept=".csv" />
+            <p id="file-selected"></p>
+            <button type="submit" class="upload-button">Upload CSV</button>
+        </form>
+    </div>
+    <div style="text-align: center">
+        <input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search for names..">
+    </div>
+    <table id="contractTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Name <div class="sort-arrows">▲<br>▼</div></th>
+                <th onclick="sortTable(1)">Date of Birth <div class="sort-arrows">▲<br>▼</div></th>
+                <th onclick="sortTable(2)">Married <div class="sort-arrows">▲<br>▼</div></th>
+                <th onclick="sortTable(3)">Phone <div class="sort-arrows">▲<br>▼</div></th>
+                <th onclick="sortTable(4)">Salary <div class="sort-arrows">▲<br>▼</div></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script type="module" src="JS/script.js"></script>
+    <script src="JS/sort.js"></script>
+    <script src="JS/filter.js"></script>
+</body>
+</html>

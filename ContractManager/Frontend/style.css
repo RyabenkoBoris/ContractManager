@@ -1,0 +1,150 @@
+input[type="file"] {
+  display: none;
+}
+
+#uploadForm{
+  border-radius: 6px;
+  padding: 1rem;
+  text-align: center;
+}
+
+#file-selected{
+  font-size: 20px;
+}
+
+.custom-file-upload {
+  border: 1px solid #a9a9a9;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.custom-file-upload:hover{
+  background-color: #efefef;
+}
+
+#contractTable{
+  margin: 1em auto;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#contractTable thead tr {
+  background-color: #009879;
+  color: #ffffff;
+}
+
+#contractTable th,
+#contractTable td {
+  padding: 12px 15px;
+}
+
+#contractTable tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+#contractTable tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+#contractTable tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+#contractTable tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.sort-arrows {
+  font-size: 6px;
+  display: inline-block;
+}
+
+.input{
+  height: 30px;
+  border-radius: 6px;
+  padding-left: 12px;
+  font-size: 14px;
+  font-weight: normal;
+  border: 1px solid rgb(137, 151, 155);
+  outline: none;
+}
+
+.edit-button {
+  background-color: #14a4d8;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-family: system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 20px;
+}
+
+.edit-button:hover {
+  background-color: #2388b0;
+}
+
+.edit-button:active {
+  background-color: #2e7ab8;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.delete-button {
+  background-color: #d91111;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-family: system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 20px;
+}
+
+.delete-button:hover {
+  background-color: #b82121;
+}
+
+.delete-button:active {
+  background-color: #981f1f;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.upload-button {
+  background-color: #2daf10;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-family: system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 20px;
+}
+
+.upload-button:hover {
+  background-color: #108318;
+}
+
+.upload-button:active {
+  background-color: #27832d;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+#myInput {
+  width:50%;
+  font-size: 16px;
+  padding: 12px 20px 12px 20px;
+  border: 1px solid #ddd;
+  
+}
